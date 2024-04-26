@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Page 1</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <line x1="0.5" y1="0.5" x2="44.5" y2="44.5" id="Line-2" stroke="#545454"></line>
+        <line x1="44.5" y1="0.5" x2="0.5" y2="44.5" id="Line-2" stroke="#545454"></line>
+    </g>
+</svg>

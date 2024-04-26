@@ -1,0 +1,8 @@
+<!-- Created by Gold Eyes - https://themeforest.net/user/goldeyes -->
+<svg width="120px" height="50px" viewBox="0 0 120 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="120" height="50" rx="25"></rect>
+        <path d="M98.5912467,25 L92.2548694,21.4357878 L92.7451306,20.5642122 L100.745131,25.0642122 L101.519864,25.5 L100.745131,25.9357878 L92.7451306,30.4357878 L92.2548694,29.5642122 L98.5912467,26 L92.5,26 L75,26 L75,25 L92.5,25 L98.5912467,25 Z" fill="#969696" fill-rule="nonzero"></path>
+        <path d="M21.4087533,26 L27.7451306,29.5642122 L27.2548694,30.4357878 L19.2548694,25.9357878 L18.4801356,25.5 L19.2548694,25.0642122 L27.2548694,20.5642122 L27.7451306,21.4357878 L21.4087533,25 L27.5,25 L45,25 L45,26 L27.5,26 L21.4087533,26 Z" fill="#969696" fill-rule="nonzero"></path>
+    </g>
+</svg>

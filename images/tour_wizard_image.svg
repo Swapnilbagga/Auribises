@@ -1,0 +1,17 @@
+
+<svg width="475px" height="344px" viewBox="0 0 475 344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="88.7002634%" gradientTransform="translate(0.500000,0.500000),scale(0.724211,1.000000),rotate(90.000000),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#393939" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="url(#radialGradient-1)" x="0" y="0" width="475" height="344"></rect>
+        <text font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <tspan x="119.125977" y="146">Image to describe this step </tspan>
+            <tspan x="141.650391" y="176">in detail on the mobile </tspan>
+            <tspan x="201.958008" y="206">devices.</tspan>
+        </text>
+    </g>
+</svg>
