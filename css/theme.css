@@ -7994,6 +7994,85 @@ body.qdr-modal-open{overflow: hidden; height: 100%;}
 	}
 
 
+	/* Timeline Types
+/* ================================================== */
+.strip-timeline .events{ width: 100%; height: auto; padding: 30px 0 90px; position: relative; margin:20px 0 40px; overflow: hidden; }
+.strip-timeline .events div{ font-weight: inherit; color:#8f8f8f; font-size:20px; opacity: 0; position: absolute; text-align: center; left:20px; width: 100%; text-align: center; margin: 0; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; }
+.strip-timeline .events div.active{ opacity: 1; left:0px; -webkit-transition-delay: 0.2s; /* Safari */ transition-delay: 0.2s; }
+/* Dates */
+.strip-timeline .dates{ border-top:1px solid #cbcbcb; position: relative; text-align: center; }
+.strip-timeline .dates div{ text-transform: uppercase; font-size: 14px; color:#7b7b7b; cursor: cell; word-spacing: 0; position: relative; padding-top:40px; letter-spacing: 0px; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; }
+.strip-timeline .dates div:before{ content:''; width: 20px; height: 20px; background:#cbcbcb; position: absolute; margin:0 auto; display: block; top:-11px; left:50%; margin-left:-10px; z-index: 2; -ms-transform: rotate(45deg); /* IE 9 */ -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */ transform: rotate(45deg); -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; }
+.strip-timeline .dates div:after{ content:''; width: 30px; height: 30px; background:white; border:1px solid #cbcbcb; position: absolute; margin:0 auto; display: block; top:-16px; left:50%; margin-left:-15px; z-index: 1; -ms-transform: rotate(45deg); /* IE 9 */ -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */ transform: rotate(45deg); -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; }
+/* Left and right squares for the timeline strip */
+.strip-timeline .dates:before, .strip-timeline .dates:after{content:''; display: block; position: absolute; left:0px; width: 13px; height: 13px; background: #cbcbcb; border-radius: 100%; top:-7px; }
+.strip-timeline .dates:after{ left:auto; right: 0px; }
+/* On Dark Backgrounds */
+.strip-timeline.light-type .events div{ color:#fafafa; }
+.strip-timeline.light-type .dates{ border-color:#333; }
+.strip-timeline.light-type .dates div{ color:#fafafa; }
+.strip-timeline.light-type .dates div:before{ background:#666; }
+.strip-timeline.light-type .dates div:after{ border-color:#666; background-color:#222;}
+.strip-timeline.light-type .dates:before, .strip-timeline.light-type .dates:after{ background: #666;}
+/* Hover Colors */
+.strip-timeline .dates div:hover,
+.strip-timeline .dates div.active{ color:#777; }
+.strip-timeline .dates div:hover:before,
+.strip-timeline .dates div.active:before{ background-color: #777; }
+.strip-timeline .dates div:hover:after,
+.strip-timeline .dates div.active:after{ border-color: #777; }
+	@media only screen and (max-width: 750px){
+		.strip-timeline .events div{ padding:0 15px; }
+		.strip-timeline .dates{ border: none; padding:0 5px; }
+		.strip-timeline .dates:before, .strip-timeline .dates:after{ display: none; }
+		.strip-timeline .dates div{ width: 20% !important; margin:20px 0 !important; word-spacing: 0px; }
+		.strip-timeline .dates div:before{ top:0px; }
+		.strip-timeline .dates div:after{ top:-5px; }
+	}
+	@media only screen and (max-width: 450px){
+		.strip-timeline .events div{ font-size:15px; }
+		.strip-timeline .dates div{ width: 33% !important; word-spacing: 3px; }
+	}
+
+	.strip-timeline .dates div:hover:before, .strip-timeline .dates div.active:before{ background-color:#3e5ee7; }
+	.strip-timeline .dates div:hover:after, .strip-timeline .dates div.active:after{ border-color: #3e5ee7; }
+	.width-calculated{ margin:0 !important; display: block !important; float: left !important; }
+
+
+	
+/* Skills section types
+/* ================================================== */
+/* Skills Type 1 */
+.skills-type-1{ text-align: left; padding-bottom: 70px; margin-top: 20px; }
+.skills-type-1 .item{ margin-top: 30px; }
+.skills-type-1 .item h3{ font-size:20px; text-transform: uppercase; padding:0; margin:0 0 30px 0; color:#b7b7b7; }
+.skills-type-1 .item .progress{ border-radius: 0; height: 10px; background-color:#333; }
+.skills-type-1 .item .progress-bar{ height: 100%; overflow: hidden; }
+.skills-type-1.light-type .progress{ background-color:#ddd; }
+.skills-type-1.progress-xl .item .progress{ height: 35px; }
+.skills-type-1.progress-xl .item .progress .progress-bar{ line-height: 37px; padding:0 20px; min-width: 150px; text-align: right;}
+.skills-type-1.progress-lg .item .progress{ height: 20px; }
+.skills-type-1.progress-sm .item .progress{ height: 5px;}
+/* Progress */
+.progress{ box-shadow: none; background-color:#eee }
+/* Skills Type 2 */
+.skills-type-2{text-align: left; padding: 0;}
+.skills-type-2 .item{ margin-top: 30px; text-align: left; }
+.skills-type-2 .item h3{ font-size:16px; font-weight: inherit; text-transform: uppercase; padding:0; margin:0 0 10px 0; color:#b7b7b7; }
+.skills-type-2.dark .item h3{ color:#555; }
+.skills-type-2 .item .progress{ border-radius: 0; height: 2px; background-color:#555555; margin-bottom:10px; }
+.skills-type-2.dark .item .progress{ border-radius: 0; height: 2px; background-color:#ccc; margin-bottom:10px; }
+.skills-type-2 .item .progress-bar{ height: 100%; }
+.col-2.skills-type-2 .item{ padding-left:0; }
+.col-2.skills-type-2 .item:nth-of-type(2n){ padding-left:15px; padding-right: 0; }
+	@media only screen and (max-width: 690px){
+		.skills-type-2 .item{ width: 100%; }
+		.col-2.skills-type-2 .item:nth-of-type(2n){ padding-left:0;}
+}
+/* You can find gradient colors in the css/skins/yourfile path. */
+.gradient-progress-bar *{position: relative; z-index: 9; line-height: inherit;}
+
+
 /* Team Types
 /* ================================================== */
 /* Team Type 1 */
